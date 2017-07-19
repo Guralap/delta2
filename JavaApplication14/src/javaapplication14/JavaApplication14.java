@@ -47,18 +47,15 @@ public class JavaApplication14 {
         
         double gallons;
         double liters;
-        int i;
-        i=0;
+        
+        
         for(gallons=1;gallons<= 100;gallons=(gallons+2))
         {
             liters=gallons*3.7854;
             
             System.out.println(gallons+"gallons"+liters+"liters");
-            i=(i+2);
-            if (counter==10){
-                System.out.println();
-                i=0;
-            }
+            
+            
         }
         
         
